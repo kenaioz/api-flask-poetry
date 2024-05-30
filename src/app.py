@@ -1,5 +1,5 @@
 from flask import Flask
-from routes.pong.pong import ping
+from src.routes.pong import ping
 
 def create_app():
     app = Flask(__name__)
